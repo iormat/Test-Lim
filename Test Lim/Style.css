@@ -1,0 +1,78 @@
+body{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  font-family:'Ubuntu', sans-serif;
+}
+
+.Transparency{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 2% 19% 0% 19%;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 3%;
+}
+
+/* header style */
+
+Header{
+  text-align:center;
+  margin-top: 6%
+}
+
+img{
+  max-width: 20%;
+  max-height: 20%;
+}
+
+h1{
+  color: rgb(131, 240, 26);
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+/* main nav class buttons */
+.buttons{
+  text-align: center;
+  background-color: rgb(131, 240, 26);
+  padding:7px;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 5px;
+}
+
+button{
+  font-size: 10px;
+}
+/* main class option1, option2, option3 */
+h2{
+  font-size:16px;
+  display:inline-block;
+  margin-bottom: 5px;
+}
+
+div>span{
+  font-size:12px;
+}
+
+h3{
+  margin-top: 2px;
+  max-width: 40%;
+  background-color: rgb(240,175,32);
+  height: 25px;
+  border-radius: 5px;
+}
+
+.Option1, .Option2, .Option3{
+  color: white;
+  margin-left: 8%;
+}
+
+
+.Option2>h3{
+  background-color: rgb(0,160,30);
+  max-width: 80%;
+}
+
+.Option3>h3{
+  background-color: rgb(200,50,10);
+  max-width: 20%;
+}
